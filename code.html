@@ -40,7 +40,7 @@
                         <a class="nav-link active" aria-current="page" href="code.html">The Code</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#">Git Repo</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/SimonvdFliert/FlipIt">Git Repo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="#">About</a>
@@ -96,9 +96,19 @@
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structered in one function.</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World"</p>
+                    <p>The Code for this project consists of 3 functions, those being "getString", "reverseString", "displayString". These functions will be explained further below.</p>
+                    <h5>getString</h5>
+                    <p>The getString function starts by ensuring that the output screen is hidden from the user. It then retrieves the input values given by the user, which are then stored in a variable for later use. 
+                        After retrieving and storing the input string, the two other functions are called.</p>
+                    
+                    <h5>reverseString</h5>
+                    <p>The reverseString function is called in the getString function, where it is given the input string as parameter. 
+                        This function then loops through the string backwards and stores each letter into an array. This array is returned to the getString function.
+                    </p>
+                
+                    <h5>displayString</h5>
+                    <p>The displayString function is called in the getString function, where it is given the array containing the reversed input string (which was created by the reverseString function) as parameter. 
+                        This function then proceeds to show the reversed string on the page. Finally the function reveals the hidden output screen and displays the data on the webpage. </p>
                 </div>
             </div>
         </div>
